@@ -1,6 +1,6 @@
 # JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course) Notes
 
-## Template Literals:
+## Template Literals
 - Template literals are enclosed by the backtick ( `` ) (grave accent) character instead of double or single quotes.
 
 - Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}). The expressions in the placeholders and the text between the backticks ( `` ) get passed to a function.
@@ -77,7 +77,7 @@
     <img src="images/spread-operator.png" width="50%" />
 
 
-## Rest Operator[es6]
+## Rest Operator
 - The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
 - A function definition's last parameter can be prefixed with "..." , which will cause all remaining (user supplied) parameters to be placed within a standard JavaScript array. Only the last parameter in a function definition can be a rest parameter.
 
@@ -247,7 +247,7 @@ await can be put in front of any async promise-based function to pause your code
     <img src="images/async&await.png" width="50%" />
 
 
-## sets in ES6
+## Sets
 - Set objects are collections of values. You can iterate through the elements of a set in insertion order. A value in the Set may only occur once; it is unique in the Set's collection.
 
 - .size: Returns the number of values in the Set object.
