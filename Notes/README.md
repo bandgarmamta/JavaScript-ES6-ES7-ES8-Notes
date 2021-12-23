@@ -1,9 +1,9 @@
 # JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course) Notes
 
 ## Template Literals:
-- Template literals are enclosed by the backtick (` `) (grave accent) character instead of double or single quotes.
+- Template literals are enclosed by the backtick ( `` ) (grave accent) character instead of double or single quotes.
 
-- Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}). The expressions in the placeholders and the text between the backticks (` `) get passed to a function.
+- Template literals can contain placeholders. These are indicated by the dollar sign and curly braces (${expression}). The expressions in the placeholders and the text between the backticks ( `` ) get passed to a function.
 
 - Syntax:
 
@@ -225,7 +225,7 @@ Static:The static keyword defines a static method or property for a class, or a 
 
 
 ## Fetch
--The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.
+- The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.
 It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.
 - Example:
      ```
@@ -236,8 +236,8 @@ It also provides a global fetch() method that provides an easy, logical way to f
     ```
         
 ## Async and Await
-- - First of all we have the async keyword, which you put in front of a function declaration to turn it into an async function. An async function is a function that knows how to expect the possibility of the await keyword being used to invoke asynchronous code.
-- - The advantage of an async function only becomes apparent when you combine it with the await keyword. await only works inside async functions within regular JavaScript code, however it can be used on its own with JavaScript modules.
+- First of all we have the async keyword, which you put in front of a function declaration to turn it into an async function. An async function is a function that knows how to expect the possibility of the await keyword being used to invoke asynchronous code.
+- The advantage of an async function only becomes apparent when you combine it with the await keyword. await only works inside async functions within regular JavaScript code, however it can be used on its own with JavaScript modules.
 await can be put in front of any async promise-based function to pause your code on that line until the promise fulfills, then return the resulting value.
 - You can use await when calling any function that returns a Promise, including web API functions.
 
